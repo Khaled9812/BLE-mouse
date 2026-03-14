@@ -136,4 +136,4 @@ IMU poll rate is set by `IMU_POLL_INTERVAL_MS` (default 10 ms = 100 Hz). Raise t
 | `imu_cursor_mapper_api.md` | Motion mapper API specification |
 | `button_mouse_api.md` | Button/mouse API specification |
 | `datasheet_icm42688/` | ICM-42688-P datasheet |
-| `test.drawio` | Hardware wiring diagram |
+| `ble_mouse.drawio` | Hardware wiring diagram |
