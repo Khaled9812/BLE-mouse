@@ -1,0 +1,26 @@
+# Claude Code project instructions (local only)
+CLAUDE.md
+
+# VS Code workspace settings
+.vscode/
+
+# Arduino build output
+build/
+*.elf
+*.bin
+*.map
+*.hex
+
+# Arduino IDE cache and temp files
+.arduino15/
+.cache/
+
+# Windows thumbnails and desktop config
+Thumbs.db
+Desktop.ini
+
+# macOS metadata
+.DS_Store
+
+# Scratch / temp sketches
+a.ino
