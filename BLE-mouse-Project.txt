@@ -1,0 +1,16 @@
+in this project we will build a ble mouse using esp32 wroom and two to four buttons maybe and we will use the gy-601n1 imu module which has the icm42688 for each thing we will have a header and a source file so we will have a header and source 
+for the ble that will contain the functions and how each function is used basically for each job we will have an api 
+first step is to make an api for the ble
+the ble will have a couple of functions 
+ble_err_t esp_ble_init(void);
+ble_err_t esp_ble_deinit(void);
+
+ble_err_t esp_ble_start_advertising(void);
+ble_err_t esp_ble_stop_advertising(void);
+
+ble_err_t esp_ble_disconnect(void);
+ble_err_t esp_ble_restart_advertising(void);   // better than "reconnect" for peripheral role
+
+ble_state_t esp_ble_get_state(void);
+bool esp_ble_is_connected(void);
+bool esp_ble_is_paired(void);
